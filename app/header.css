@@ -1,0 +1,14 @@
+
+.row{
+    border:solid red 1px;
+    height:100px;
+    margin:10px 0px;
+    
+    
+}
+.col1{
+    border:solid blue 1px;
+    height:50%;
+    width:50%;
+}
+

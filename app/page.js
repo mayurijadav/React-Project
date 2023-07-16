@@ -25,6 +25,9 @@ const app=() =>{
              <Movie 
                 movieInformation={Data[3]}
             />
+            <Movie
+                movieInformation={Data[4]}
+            />
                                                  
             <Footer />
 

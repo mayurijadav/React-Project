@@ -6,17 +6,13 @@ body{
     height:130px;
 }
 .row11{
- 
     height:28px;    
 }
 .row111{
- 
     height:28px;
-    float:bottom;
-    
+    float:bottom;   
 }
 .rowMiddel{
- 
     height:70px;
 }
 .col1{
@@ -24,8 +20,7 @@ body{
     width:271px;
     height:100%;
 }
-.col2{
- 
+.col2{ 
     margin:  20px 0px;
     float:  right;
     height:30px;
@@ -49,14 +44,11 @@ body{
     color:white;
     float:right;    
 }
-
-
 .row2{
     border:solid red 1px;
     width:960px;
     height:277px;
-    margin:0px auto;
- 
+    margin:0px auto; 
 }
 .movierow{
     border:solid red 1px;
@@ -66,9 +58,9 @@ body{
     width:200px;
     height:252px;
     margin:0px 26px 24px 0px; 
-    float:left;
-        
+    float:left;       
 }
+
 .movieData{
     border:solid yellow 1px;
     height:252px;
@@ -84,34 +76,29 @@ body{
 .discription{
     color:white;
 }
+
+
 .actionRow{
     border:solid red 1px;
-    height:33px;
-
-   
+    height:33px;   
 }
-.thumbs{
+.count{
     border:solid blue 1px;
     width:32px;
     height:32px;
     float:left;
- 
+    color:white;
+    text-align:center; 
 }
-.like{
-    border:solid blue 1px;
-    width:32px;
-    height:32px;
+.like{   
     float:left;
  
 }
 .dislike{
-    border:solid blue 1px;
-    width:32px;
-    height:32px;
     float:left;
  
 }
-.delete{
+.Delete{
     border:solid blue 1px;
     height:29px;
     width:26px;

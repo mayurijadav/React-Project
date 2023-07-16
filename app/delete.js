@@ -1,8 +1,9 @@
-const Delet=() =>{
-    function handalDelet(id) 
-    }
-    return(
-        <div onClick={()=>{
-            handalDelet(delete)
-        }}
-    )/>
+const  Delete=() =>{
+    return (
+        <>
+            <div className="Delete"><img src="Delete.png"/></div>
+        </>
+    );
+};
+export default Delete;  
+

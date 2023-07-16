@@ -26,7 +26,15 @@ const Data = [{
     movieYear:"2022",
     durationtime:"3h.15sec",
     gener:"imotional",
-    discription:"To save her father from death in the army, a yes in the process.oung maiden secretly goes in his "}
-
+    discription:"To save her father from death in the army, a yes in the process.oung maiden secretly goes in his "},
+    
+    {image:"image5.png",
+    movieName:"Soul Surfer",
+    movieYear:"2023",
+    durationtime:"3hr",
+    gener:"inspiretion",
+    discription:"A look at the events leading up to the Taliban's attack on Pakistani schoolgirl Malala."
+    }
+    
 ]
 export default Data; 

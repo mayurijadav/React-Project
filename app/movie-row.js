@@ -1,18 +1,16 @@
+import React from "react";
 import Data from './data.js'
 import Action from './Actionrow.js'
-const Movie =(props) =>{
+const Movie = (props) =>{
     return(
         <>
             <div className="row2">
-                <div className="image"><img src={props. movieInformation.image}/></div>
+                <div className="picture"><img src={props.item.image}/></div>
                 <div className="movieData">
-                    <h1 className="movieName" >{props. movieInformation.movieName}</h1>
-                    <p className="para">{props. movieInformation.movieYear+"|"+props. movieInformation.durationtime+"|"+props. movieInformation.genre}</p>
+                    <h1 className="movieName" >{props.item.movieName}</h1>
+                    <p className="para">{props.item.movieYear+"|"+props.item.durationtime+"|"+props.item.gener}</p>
                     <h1 className="discription">Discription</h1>
-                    <p className="discription">{props. movieInformation.discription}</p>
-                   
-                    <Action />
-                    
+                    <p className="discription">{props.item.discription}</p>
                 </div>
             </div>           
         </>

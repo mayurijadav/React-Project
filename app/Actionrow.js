@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import Delete from './delete.js'
+import Delete from "./delete.js"
 const Action = () => {
   const [likes, setLikes] = useState(0);
 
@@ -9,7 +9,7 @@ const Action = () => {
   };
 
     const handleDisLikeClick =() => {
-        setLikes(likes-1);b
+        setLikes(likes-1);
     };
     
     return (
@@ -17,7 +17,7 @@ const Action = () => {
             <div className="actionRow">
                 <img src="Like.png" className=" like" onClick={handleLikeClick} />
                 <div className="count">{likes}</div>
-                <img img src="DisLike.png" className="dislike" onClick={handleDisLikeClick} />                
+                <img img src="DisLike.png" className="dislike" onClick={handleDisLikeClick} />
                 <Delete/>
             </div>
         </>

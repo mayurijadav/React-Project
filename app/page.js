@@ -14,21 +14,8 @@ const app=() =>{
             <Header/> 
             <Watch />
             <Movie 
-                 movieInformation={Data[0]}
-            />   
-            <Movie 
-                movieInformation={Data[1]}
-            />  
-            <Movie 
-                movieInformation={Data[2]}
-            />
-             <Movie 
-                movieInformation={Data[3]}
-            />
-            <Movie
-                movieInformation={Data[4]}
-            />
-                                                 
+                movieInformation={Data[0]} 
+            />                                                          
             <Footer />
 
 

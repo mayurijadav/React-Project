@@ -49,6 +49,7 @@ body{
     width:960px;
     height:277px;
     margin:0px auto; 
+    
 }
 .movierow{
     border:solid red 1px;
@@ -80,7 +81,9 @@ body{
 
 .actionRow{
     border:solid red 1px;
-    height:33px;   
+    height:33px;
+      
+     
 }
 .count{
     border:solid blue 1px;
